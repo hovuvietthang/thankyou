@@ -1,0 +1,114 @@
+.bg {
+  position: relative;
+  background-image: url("#");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+    font-family: 'Bungee', cursive;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgba(198, 198, 200, 0.1);
+    color :white;
+    border:0px solid rgba(198, 198, 200, 0.1);
+}
+.input {
+    color: white;
+}
+.input-btn{
+    background-color: rgba(127, 165, 255, 0.244);
+    color: black;
+}
+.input:focus {
+    border : 0px none;
+    border-color: wheat;
+}
+.field {
+    position: fixed;
+    display: inline-flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    text-align: center;
+    top: 10%;
+}
+.container-fluid {
+    padding: 0px;
+}
+.field-title {
+ color : white;
+}
+::placeholder {
+    color: white;
+}
+/* Nguyễn Quang Thượng */
+.offcanvas-body {
+    /* background: url(./images/bg-thang-thuong.jpg); */
+    
+}
+.offcanvas-start {
+    width: 100%;
+}
+.offcanvas{
+ background-color: rgba(240, 248, 255, 0.763);
+}
+.letter {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background: repeating-linear-gradient(
+        60deg,
+        rgb(59, 93, 230),
+        rgb(72, 104, 232) 20px,
+        white 20px,
+        white 35px,
+        rgb(247, 43, 74) 35px,
+        rgb(247, 43, 74) 50px,
+        white 50px,
+        white 55px,
+        rgb(247, 43, 74) 55px,
+        rgb(247, 43, 74) 70px,
+        white 70px,
+        white 73px
+    );
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.letter-child{
+ position: relative;
+ background-color: white;
+ width: 98%;
+ height: 98%;
+ margin-top: 1%;
+ margin-bottom: 1%;
+}
+#information-send{
+    position: relative;
+    margin : 5px
+}
+#information-client{
+    position: relative;
+    margin: 5px;
+}
+#letter-footer-sign{
+ display: inline-flex;
+ justify-content: center;
+ align-content: center;
+ flex-direction: column;
+ align-items: center;
+ margin: 5px;
+}
+#letter-content-div{
+    margin : 5px;
+}
