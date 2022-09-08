@@ -5,7 +5,7 @@ $("#btnLogin").click(
         let passWord = document.getElementById("passWord").value;
         console.log(userName);
         console.log (passWord)
-        if (userName == "nguyenquangthuong" && passWord == "nguyenquangthuong"){
+        if (userName == "nguyenquangthuong" && passWord == "68em5sc6"){
             $("#btnLogin").attr (
                 "data-bs-target" , "#offcanvas-replace-id"
             )
@@ -65,7 +65,7 @@ fetch(thanksAPI)
   }
   )
         console.log("Quang Thượng")
-        } else if(userName == "huynhthikimngoc" && passWord == "huynhthikimngoc")
+        } else if(userName == "huynhthikimngoc" && passWord == "5h6ancud")
         {
             $("#btnLogin").attr (
                 "data-bs-target" , "#offcanvas-replace-id"
@@ -127,7 +127,7 @@ fetch(thanksAPI)
   }
   )
             console.log("Kim Ngọc")
-        } else if (userName == "tranphamhongduc" && passWord == "tranphamhongduc"){
+        } else if (userName == "tranphamhongduc" && passWord == "sx6647js"){
             $("#btnLogin").attr (
                 "data-bs-target" , "#offcanvas-replace-id"
             )
@@ -189,7 +189,7 @@ fetch(thanksAPI)
   )
             console.log("Hồng Đức")
             // hong duc 3
-        } else if (userName == "nguyenthianhtuyet" && passWord == "nguyenthianhtuyet"){
+        } else if (userName == "nguyenthianhtuyet" && passWord == "8x83bjss"){
             $("#btnLogin").attr (
                 "data-bs-target" , "#offcanvas-replace-id"
             )
@@ -250,7 +250,7 @@ fetch(thanksAPI)
   )
             console.log("Ánh Tuyết")
         // anh tuyet 4
-        } else if (userName == "phamvanvien" && passWord == "phamvanvien"){
+        } else if (userName == "phamvanvien" && passWord == "h6cns9ds"){
             $("#btnLogin").attr (
                 "data-bs-target" , "#offcanvas-replace-id"
             )
@@ -312,7 +312,7 @@ fetch(thanksAPI)
             console.log("Văn Viên")
             // Văn Viên 5
         } 
-        else if (userName == "team97" && passWord == "team97"){
+        else if (userName == "team97" && passWord == "k5su82nd"){
             $("#btnLogin").attr (
                 "data-bs-target" , "#offcanvas-replace-id"
             )
